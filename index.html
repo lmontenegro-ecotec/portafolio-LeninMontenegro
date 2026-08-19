@@ -9,95 +9,100 @@
     </head>
     <body>
         <!--Encabezado-->
-        <header>
-            <div>
-                <h1>Lenin Montenegro</h1>
-                <p>Tecnólogo en Desarrollo de Software &middot; Líder de Desarrollo &middot; +25 años en sistemas</p>
+        <header class="encabezado">
+            <div  class="contenedor">
+                <h1 class="titulo-principal">Lenin Montenegro</h1>
+                <p class="subtitulo">Tecnólogo en Desarrollo de Software &middot; Líder de Desarrollo &middot; +25 años en sistemas</p>
             </div>
+            
             <!--Menu de Navegacion-->
-            <div>
-                <nav>
-                    <a href="#">Inicio</a>
-                    <a href="#">Sobre Mí</a>
-                    <a href="#">Habilidades</a>
-                    <a href="#">Proyectos</a>
-                    <a href="#">Contacto</a>
+            <div class="nav-bg">
+                <nav class="navegacion-principal">
+                    <a href="#inicio">Inicio</a>
+                    <a href="#sobre-mi">Sobre Mí</a>
+                    <a href="#habilidades">Habilidades</a>
+                    <a href="#proyectos">Proyectos</a>
+                    <a href="#contacto">Contacto</a>
                 </nav>
             </div>            
         </header>
         
 
-        <main>
+        <main class="contenedor">
+            
             <!--Seccion Principal-->
-            <section>
-                <div>
-                    <h2>Bienvenido a mi portafolio</h2>
-                    <p>
+            <section class="inicio" id="inicio">
+                <div class="inicio-texto">
+                    <h2 class="titulo-seccion">Bienvenido a mi portafolio</h2>
+                    <p class="parrafo">
                         Más de 25 años construyendo soluciones tecnológicas y liderando equipos
                         de desarrollo. Aquí comparto mi trayectoria profesional, mis habilidades
                         y los proyectos en los que he trabajado.
                     </p>
-                    <p>Guayaquil - Ecuador</p>
+                    <p class="ubicacion">Guayaquil - Ecuador</p>
+                    <a class="boton" href="#proyectos">Ver mis proyectos</a>
                 </div>
             </section>
 
             <!--Sobre Mi-->
-            <section>
-                <h2>Sobre Mí</h2>
-                <p>
-                    Soy Lenin Montenegro, Tecnólogo en Desarrollo de Software graduado en el
-                    Instituto Tecnológico Argos. Llevo más de 25 años en el área de sistemas,
-                    de los cuales más de 15 los he dedicado al desarrollo de software, y
-                    actualmente lidero el área de desarrollo de la empresa donde trabajo.
-                </p>
+            <section class="sobre-mi" id="sobre-mi">
+                <h2 class="titulo-seccion">Sobre Mí</h2>
+                <div class="caja">                
+                    <p class="parrafo">
+                        Soy Lenin Montenegro, Tecnólogo en Desarrollo de Software graduado en el
+                        Instituto Tecnológico Argos. Llevo más de 25 años en el área de sistemas,
+                        de los cuales más de 15 los he dedicado al desarrollo de software, y
+                        actualmente lidero el área de desarrollo de la empresa donde trabajo.
+                    </p>
 
-                <p>
-                    A lo largo de estos años he pasado por todas las etapas del proceso:
-                    levantamiento de requerimientos, análisis, programación, pruebas, puesta
-                    en producción y soporte. Esa trayectoria me permite hoy no solo escribir
-                    código, sino tomar decisiones técnicas, definir estándares de trabajo y
-                    acompañar el crecimiento de un equipo de desarrolladores.
-                </p>
+                    <p class="parrafo">
+                        A lo largo de estos años he pasado por todas las etapas del proceso:
+                        levantamiento de requerimientos, análisis, programación, pruebas, puesta
+                        en producción y soporte. Esa trayectoria me permite hoy no solo escribir
+                        código, sino tomar decisiones técnicas, definir estándares de trabajo y
+                        acompañar el crecimiento de un equipo de desarrolladores.
+                    </p>
 
-                <p>
-                    Sigo formándome de manera continua, porque considero que la tecnología
-                    exige mantenerse actualizado sin importar los años de experiencia. Mi
-                    objetivo profesional es seguir fortaleciendo mi rol de liderazgo técnico
-                    y aportar soluciones que generen valor real al negocio y a las personas
-                    que las utilizan.
-                </p>                
+                    <p class="parrafo-final">
+                        Sigo formándome de manera continua, porque considero que la tecnología
+                        exige mantenerse actualizado sin importar los años de experiencia. Mi
+                        objetivo profesional es seguir fortaleciendo mi rol de liderazgo técnico
+                        y aportar soluciones que generen valor real al negocio y a las personas
+                        que las utilizan.
+                    </p>          
+                </div>
             </section>
 
             <!--Habilidades-->
-            <section>
-                <h2>Habilidades</h2>
-                <div>
-                    <article>
+            <section class="habilidades" id="habilidades">
+                <h2 class="titulo-seccion">Habilidades</h2>
+                <div class="contenedor-flex">
+                    <article class="habilidad">
                         <h3>HTML</h3>
                         <p>Estructuración de páginas web con etiquetas semánticas.</p>
                     </article>
 
-                    <article>
+                    <article class="habilidad">
                         <h3>CSS</h3>
                         <p>Estilos, colores, tipografías y maquetación con Flexbox.</p>
                     </article>
 
-                    <article>
+                    <article class="habilidad">
                         <h3>GitHub</h3>
                         <p>Control de versiones y publicación de repositorios públicos.</p>
                     </article>
 
-                    <article>
+                    <article class="habilidad">
                         <h3>Desarrollo de Software</h3>
                         <p>Más de 15 años programando aplicaciones para el sector empresarial.</p>
                     </article>
 
-                    <article>
+                    <article class="habilidad">
                         <h3>Bases de Datos</h3>
                         <p>Diseño de modelos relacionales, consultas SQL y optimización.</p>
                     </article>
 
-                    <article>
+                    <article class="habilidad">
                         <h3>Liderazgo de Equipos</h3>
                         <p>Dirección del área de desarrollo, estándares de trabajo y entregas.</p>
                     </article>
@@ -106,62 +111,62 @@
             </section>
 
             <!--Proyectos-->
-            <section>
-                <h2>Proyectos</h2>
-                <div>
-                    <article>
-                        <div>
+            <section class="proyectos" id="proyectos">
+                <h2 class="titulo-seccion">Proyectos</h2>
+                <div class="contenedor-flex">
+                    <article class="proyecto">
+                        <div class="proyecto-contenido">
                             <h3>Taxconsa — Sitio Web Corporativo</h3>
                             <p>
                                 Sitio web corporativo para una firma de auditoría y asesoría tributaria. 
                                 Presenta sus cuatro líneas de servicio, un portafolio de más de 15 clientes 
                                 con filtros por sector y un formulario de contacto con mapa integrado.
                             </p>
-                            <a href="https://www.taxconsa.com" target="_blank">Ver sitio</a>
+                            <a class="enlace" href="https://www.taxconsa.com" target="_blank">Ver sitio</a>
                         </div>
                     </article>
                     
-                    <article>
-                        <div>
+                    <article class="proyecto">
+                        <div class="proyecto-contenido">
                             <h3>Actividad Integradora N1</h3>
                             <p>
                                 Sitio web desarrollado en clase con HTML y CSS, con encabezado,
                                 menú de navegación, sección hero y formulario de contacto.
                             </p>
-                            <a href="https://github.com/lmontenegro-ecotec/programacion-web-04" target="_blank">Ver repositorio</a>
+                            <a class="enlace" href="https://github.com/lmontenegro-ecotec/programacion-web-04" target="_blank">Ver repositorio</a>
                         </div>
                     </article>
 
-                    <article>
-                        <div>
+                    <article class="proyecto">
+                        <div class="proyecto-contenido">
                             <h3>Maquetación con CSS</h3>
                             <p>
                                 Ejercicio de clase donde apliqué variables dentro de :root,
                                 Flexbox y efectos hover para organizar el contenido en tarjetas.
                             </p>
-                            <a href="https://github.com/lmontenegro-ecotec/programacion-web-04" target="_blank">Ver repositorio</a>
+                            <a class="enlace" href="https://github.com/lmontenegro-ecotec/programacion-web-04" target="_blank">Ver repositorio</a>
                         </div>
                     </article>
 
-                    <article>
-                        <div>
+                    <article class="proyecto">
+                        <div class="proyecto-contenido">
                             <h3>Portafolio Personal</h3>
                             <p>
                                 Este mismo sitio web, desarrollado con HTML y CSS y publicado en un
                                 repositorio público de GitHub con commits progresivos.
                             </p>
-                            <a href="https://github.com/lmontenegro-ecotec/portafolio-LeninMontenegro" target="_blank">Ver repositorio</a>
+                            <a class="enlace" href="https://github.com/lmontenegro-ecotec/portafolio-LeninMontenegro" target="_blank">Ver repositorio</a>
                         </div>
                     </article>
                 </div>
             </section>
 
             <!--Formulario de Contacto-->
-            <section>
-                <h2>Contacto</h2>
-                <p>Si deseas escribirme, puedes usar el siguiente formulario.</p>
+            <section class="contacto" id="contacto">
+                <h2 class="titulo-seccion">Contacto</h2>
+                <p class="parrafo">Si deseas escribirme, puedes usar el siguiente formulario.</p>
 
-                <form >
+                <form class="formulario">
                     <label for="nombre">Nombre :</label>
                     <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" />
 
@@ -177,7 +182,7 @@
         </main>
         
         <!--Pie de Pagina-->
-        <footer>
+        <footer class="pie-pagina">
             <p>Lenin Montenegro &mdash; 2026</p>
             <a class="enlace-pie" href="https://github.com/lmontenegro-ecotec" target="_blank">Mi perfil de GitHub</a>
         </footer>        

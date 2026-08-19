@@ -5,7 +5,8 @@ Programación Web. El portafolio presenta información sobre mi de manera básic
 proyectos y una sección de contacto.
 
 ## Autor
-Lenin Montenegro — Ingeniería en Sistemas Inteligentes
+Lenin Montenegro — Tecnólogo en Desarrollo de Software (Instituto Tecnológico Argos)
+Líder de Desarrollo · +20 años de experiencia en el área de sistemas
 GitHub: [lmontenegro-ecotec](https://github.com/lmontenegro-ecotec)
 
 ## Descripción
