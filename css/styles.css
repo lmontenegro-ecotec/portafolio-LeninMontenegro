@@ -1,0 +1,14 @@
+:root {
+    /*Declaración de variables*/
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --primario: #ffc107;
+    --secundario: #0097a7;
+    --fondo: #fdf8ef;
+    --gris: #e5e5e5;
+
+    /*Tipografía y espaciados*/
+    --fuente: Arial, Helvetica, sans-serif;
+    --espacio: 20px;
+    --radio: 8px;
+}
