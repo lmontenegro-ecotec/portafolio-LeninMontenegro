@@ -144,6 +144,13 @@ section {
     margin-bottom: var(--espacio);
 }
 
+.avatar {
+    width: 180px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid var(--primario);
+}
+
 /*Botones*/
 .boton {
     display: inline-block;
@@ -162,6 +169,11 @@ section {
 .boton:hover {
     background-color: var(--primario);
     color: var(--oscuro);
+}
+
+.inicio-imagen {
+    flex: 0 0 auto;
+    text-align: center;
 }
 
 /*Contenedor flexible reutilizable*/
@@ -220,6 +232,12 @@ section {
 .proyecto-contenido p {
     font-size: 15px;
     margin-bottom: 10px;
+}
+
+.proyecto-imagen {
+    width: 100%;
+    height: 170px;
+    display: block;
 }
 
 .enlace {
@@ -290,4 +308,12 @@ section {
 .enlace-pie:hover {
     color: var(--blanco);
     text-decoration: underline;
+}
+
+/*Secciones internas*/
+.sobre-mi,
+.habilidades,
+.proyectos,
+.contacto {
+    scroll-margin-top: 20px;
 }

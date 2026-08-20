@@ -22,7 +22,6 @@ enlazadas desde el menú de navegación:
 6. **Contacto** — formulario visual con nombre, correo, mensaje y botón de enviar.
 7. **Pie de página** — nombre, año y enlace al perfil de GitHub.
 
-
 ## Tecnologías utilizadas
 
 - HTML5 con etiquetas semánticas (`header`, `nav`, `main`, `section`, `article`, `footer`).
@@ -35,3 +34,18 @@ enlazadas desde el menú de navegación:
 
 1. Descargar o clonar el repositorio.
 2. Abrir el archivo `index.html` en cualquier navegador web.
+
+## Estructura de archivos
+
+```
+portafolio-personal/
+└── css/
+    ├── styles.css
+└── img/
+    ├── avatar.jpeg
+    ├── proyecto1.jpg
+    ├── proyecto2.jpg
+    └── proyecto3.jpg
+├── index.html
+├── README.md
+```
