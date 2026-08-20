@@ -28,6 +28,8 @@ enlazadas desde el menú de navegación:
 - HTML5 con etiquetas semánticas (`header`, `nav`, `main`, `section`, `article`, `footer`).
 - CSS3 externo con variables definidas en `:root`.
 - Git y GitHub para el control de versiones.
+- Maquetación con `display: flex`.
+- Efectos de interacción con la pseudoclase `:hover`.
 
 ## Cómo verlo
 
